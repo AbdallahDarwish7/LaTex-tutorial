@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{tabularx}
+\title{tables}
+\usepackage{url}
+\author{abdullah}
+\date{}
+
+\begin{document}
+	
+\begin{table}[!h]
+	\centering
+	\caption{table}
+	\label{t1}
+\begin{tabular}{lcr}% l: left-alignment c:center-alignment r:right-alignment
+	text&text&text\\
+	text&text&text\\
+	text&text&text
+\end{tabular}
+\end{table}
+%for horizontal lines in table
+\begin{table}[h]
+	\centering
+	\caption{table2}
+	\label{t2}
+\begin{tabular}{ccc}
+	\hline
+	text&text&text\\
+	\hline
+	text&text&text\\
+	\hline
+	text&text&text\\
+	\hline
+\end{tabular}
+\end{table}
+%for verticle lines in table
+\begin{table}[h]
+	\centering
+	\caption{table4}
+	\label{t4}
+\begin{tabular}{|c|r|c|}
+	text&text&text\\
+	text&text&text\\
+	text&text&text
+\end{tabular}
+\end{table}
+%for both
+\begin{table}[h!]
+\centering
+\caption{table3}
+\label{t3}
+\begin{tabular}{|c|r|c|}
+	\hline
+	text&text&text\\
+	\hline
+	text&text&text\\
+	\hline
+	text&text&text\\
+	\hline
+\end{tabular}
+\end{table}
+for more forms :
+\url{https://en.wikibooks.org/wiki/LaTeX/Tables}
+\end{document}

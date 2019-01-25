@@ -1,0 +1,29 @@
+\documentclass{article}
+\title{assignment 1}
+\author{abdullah drwesh}
+\usepackage{graphicx}
+%for multiple imgae use
+\usepackage{subcaption}
+\usepackage{caption}
+
+\begin{document}
+	\maketitle
+	% there comands like \linewidth  \textwidth  \columnwidth
+	\begin{figure}[!h] %here idefinitly 
+		\centering
+		%\caption{figure} 
+		\label{fig:figure1}
+		\begin{subfigure}[b]{0.4\columnwidth} %you must identify the scale of subfigure environment and where is it
+			\includegraphics[width=\textwidth]{C:/Users/abdul/Desktop/Untitled1.png}
+			\caption{}
+		\end{subfigure}
+	~
+		\begin{subfigure}[b]{0.4\columnwidth}
+			\includegraphics[width=\textwidth]{C:/Users/abdul/Desktop/Untitled4.png}
+			\caption{}
+		\end{subfigure}
+	%note how to change the size of image of the main figure
+	%\includegraphics[width=0.8\linewidth]{C:/Users/abdul/Desktop/Untitled3.png}
+	\caption{figure}
+	\end{figure}
+\end{document}

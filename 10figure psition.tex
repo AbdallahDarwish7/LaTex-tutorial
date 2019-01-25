@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{float}
+\title{Assignment 1}
+\author{abdullah}
+\begin{document}
+	\maketitle
+	\newpage
+	%for image positioning you must set the float value for the figure environment 
+	%h-->here ,t-->top ,b-->bottom ,p-->page (on an extra page)
+	\begin{figure}[h!]
+		\includegraphics[width=\linewidth]{C:/Users/abdul/Desktop/img.jpg}
+		\caption{Abo Teraka}
+	\end{figure}
+	%or by use package float 
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{C:/Users/abdul/Desktop/img.jpg}
+		\caption{Abo Teraka}
+	\end{figure}
+	\begin{figure}[b!]
+		\includegraphics[width=\linewidth]{C:/Users/abdul/Desktop/img.jpg}
+		\caption{Abo Teraka}
+	\end{figure}
+	\begin{figure}[t!]
+		\includegraphics[width=\linewidth]{C:/Users/abdul/Desktop/img.jpg}
+		\caption{Abo Teraka}
+	\end{figure}
+\end{document}

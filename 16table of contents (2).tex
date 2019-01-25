@@ -1,0 +1,20 @@
+%for each section use \addtocontents command
+\documentclass{article}
+\title{assignment 1}
+\author{abdullah}
+\begin{document}
+	
+	\addtocontents{toc}{\setcounter{tocdepth}{1}}
+	\section{section1}
+	text
+	\subsection{subsection1}
+	text
+	\addtocontents{toc}{\setcounter{tocdepth}{3}}
+	\section{section2}
+	text
+	\subsection{subsection2}
+	text
+	\subsubsection{subsubsection2}
+	\newpage
+	\tableofcontents
+\end{document}
